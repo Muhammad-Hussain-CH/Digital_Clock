@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:url(assists/6a8ca1b1ff07237bcbd0477d951711b7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 18px 100px;
+    display: flex;
+    
+    align-items: center;
+    background: #1729c4;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+nav .logo {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+   padding-left: 420px;
+}
+.Display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.Display_1, .Display_2, .Display_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    font-size: 120px;
+    color: #000000;
+    font-weight: 600;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    background-color: #fff;
+    /* background: #c1d132; */
+
+
+}
+.Display_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 170px;
+    border-radius: 20px;
+    font-size: 50px;
+    color: #0011ff;
+    font-weight: 550;
+  
+    margin-top: 100px;
+   
+     flex-direction: column;
+}
+.Display_4_A{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 34px;
+    color: #000000;
+    font-weight: 550;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    margin: 3px;
+    background-color: #fff;
+}
+
+@media (max-width: 1000px) {
+    nav {
+        padding: 18px 50px;
+    }
+    nav .logo {
+        font-size: 24px;
+        padding-left: 350px;
+    }
+    .Display_1, .Display_2, .Display_3{
+        width: 200px;
+        height: 200px;
+        font-size: 90px;
+    }
+    .Display_4{
+        width: 80px;
+        height: 140px;
+        font-size: 30px;
+        margin-top: 80px;
+    }
+    .Display_4_A{
+        width: 80px;
+        height: 50px;
+        font-size: 24px;
+    }
+
+}
+.Date{
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    font-size: 30px;
+    color: #000000;
+    background-color: #fff;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+   border-radius: 10px;
+    gap: 10px;
+    margin-left: 130px;
+    padding: 4px 12px;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
